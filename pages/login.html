@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="icon" href="../imagenes/ico/Icono.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../styles/variables.css" />
+  <link rel="stylesheet" href="../styles/login-registro.css" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md">
+    <div class="container justify-content-center m-0">
+      <a class="navbar-brand show-overlay" href="../index.html">
+        <img src="../imagenes/ico/Icono.png" width="50" alt="Logo de la página">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggler"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbartoggler">
+        <ul class="navbar-nav d-flex align-items-center justify-content-center">
+          <li class="nav-item m-2">
+            <a class="nav-link active show-overlay" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./Categorias.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item show-overlay" href="./Categorias.html">Battle Royale</a></li>
+              <li><a class="dropdown-item show-overlay" href="./Categorias-multip.html">Multiplayer Online</a></li>
+              <li><a class="dropdown-item show-overlay" href="./Categorias-shooter.html">Shooter</a></li>
+              <li><a class="dropdown-item show-overlay" href="./Categorias-supervivi.html">Supervivencia</a></li>
+              <li><a class="dropdown-item show-overlay" href="./Categorias-MMORPG.html">MMORPG</a></li>
+            </ul>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link show-overlay" href="./producto2.html">Productos</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link show-overlay" href="./carrito.html">Carrito</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link show-overlay" href="./sobreNosotros.html">Acerca de Nosotros</a>
+          </li>
+          <li class="registro m-3">
+            <a class="nav-link show-overlay" href="./login.html">Acceder</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="main d-flex justify-content-center align-items-center">
+    <div class="image-wrapper">
+      <div class="image"></div>
+      <div class="overlay"></div>
+    </div>
+    <div class="content-form d-flex flex-column justify-content-center align-items-center container-fluid">
+      <div>
+        <a href="">
+          <img src="../imagenes/ico/Icono.png" alt="logo" class="img-fluid logo" />
+        </a>
+      </div>
+      <form action="" class="form d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center m-2">
+          <label for="" class="m-2 label-form">Nombre de usuario</label>
+          <input type="text" class="form-control form-items" placeholder="Nombre de usuario" required />
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center m-2">
+          <label for="" class="m-2 label-form">Contraseña </label>
+          <input type="password" class="form-control form-items" placeholder="Contraseña" required />
+        </div>
+        <div class="form-check form-switch m-2 ">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+          <label class="form-check-label" for="flexSwitchCheckDefault">Mantener sesion iniciada</label>
+        </div>
+        <button type="submit" class="btn btn-outline-success m-2 button-form "> Iniciar sesion </button>
+        <h6>Nuevo en pixel? <a href="../pages/registro.html" class="enlace-registro">Registrate ahora</a></h6>
+      </form>
+    </div>
+  </main>
+  <footer class="pie-pagina">
+    <div class="row caja-footer">
+      <div class="caja-col col-12 col-sm-4 col-lg-3 contenedor-img">
+        <img src="../imagenes/footer/Iconos/PixelarticonsPixelarticons.png" alt="pixel-logo">
+      </div>
+      <div class="caja-col col-12 col-sm-4 col-lg-3">
+        <ul class="lista ayuda">
+          <li>
+            <h3 class="titulo-lista">AYUDA</h3>
+          </li>
+          <li class="texto-lista"><a href="../pages/carrito.html" class="link-lista">Comprar</a></li>
+          <li class="texto-lista"><a href="../pages/contact.html" class="link-lista"> Contacto </a></li>
+          <li class="texto-lista"><a href="../pages/Error404.html" class="link-lista">Resolución de problemas</a></li>
+          <li class="texto-lista"><a href="../pages/Error404.html" class="link-lista">Centro de seguridad</a></li>
+        </ul>
+      </div>
+      <div class="caja-col col-12 col-sm-4 col-lg-3">
+        <ul class="lista cuenta ">
+          <li>
+            <h3 class="titulo-lista">MI CUENTA</h3>
+          </li>
+          <li class="texto-lista"><a href="../pages/login.html" class="link-lista">Acceder</a></li>
+          <li class="texto-lista"><a href="../pages/Error404.html" class="link-lista">Recuperar</a></li>
+          <li class="texto-lista"><a href="../pages/Error404.html" class="link-lista">Eliminar</a></li>
+        </ul>
+      </div>
+      <div class="caja-col col-12 col-lg-3">
+        <h3 class="text-align-center titulo-lista">REDES SOCIALES</h3>
+        <div class="contenedor-redes">
+          <div class="contenedor-facebook">
+            <a href="../pages/Error404.html"><img src="../imagenes/footer/Iconos/facebook 2.png" alt=""
+                class="img-redes"></a>
+          </div>
+          <div class="contenedor-instagram">
+            <a href="../pages/Error404.html"><img src="../imagenes/footer/Iconos/icons8-instagram-100.png" alt=""
+                class="img-redes"></a>
+          </div>
+          <div class="contenedor-whatsapp">
+            <a href="../pages/Error404.html"><img src="../imagenes/footer/Iconos/icons8-whatsapp-100.png" alt=""
+                class="img-redes"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-footer">
+      <div class="ubicación-copyright d-flex">
+        <a href="../pages/Error404.html" class="link-direccion">
+
+          <img src="../imagenes/footer/Iconos/marcador.png" alt="marcador-mapa" class="icono-marcador">
+
+          <h5 class="texto-ubicación">Argentina</h5>
+        </a>
+        <p class="m-0 ps-2 " style="color: rgb(150, 145, 145)">Copyright © 2023 pixels S.R.L.</p>
+      </div>
+      <div class="terminos-politica">
+        <a href="../pages/Error404.html" class="links-final-footer pe-2">Términos y condiciones de uso</a>
+        <a href="../pages/Error404.html" class="links-final-footer">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

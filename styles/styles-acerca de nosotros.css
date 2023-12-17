@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    position: relative;
+}
+
+.image-wrapper {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+
+.image-wrapper>.image {
+    background-image: url("../imagenes/fondos/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -100;
+}
+
+
+
+.image-wrapper>.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    opacity: .7;
+    z-index: -100;
+}
+
+.image-wrapper-2 {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+
+.image-wrapper-2>.image-2 {
+    background-image: url("./imagenes/mohammad-rahmani-d3Ysz1ziusM-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -100;
+}
+
+.main .content {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.main .content .title {
+    font-family: var(--font-family);
+    color: #e5e5e5;
+    letter-spacing: 2px;
+}
+
+.team-phrase {
+    font-family: cursive;
+    color: #e5e5e5;
+    font-size: 2rem;
+}
+
+.title-about-us {
+    font-size: 2.5rem;
+}
+
+#team {
+    background: linear-gradient(to bottom, rgb(40, 39, 39), #4B0082, #8A2BE2, black);
+}
+
+.team-wrap {
+    background: rgba(34, 34, 34, .6);
+    position: absolute;
+    border-radius: 0.5rem;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    object-fit: cover;
+}
+
+.team-item {
+    position: relative;
+    border-radius: 0.5rem;
+    margin: 0 0 30px;
+    box-shadow: 2px 8px 24px rgba(0, 0, 0, 0.502);
+    text-align: center;
+}
+
+.team-item,
+.team-wrap,
+.team-content,
+.team-content-social {
+    transition: all .4s ease-in-out;
+}
+
+.team-item:hover .team-wrap {
+    opacity: 1;
+}
+
+.team-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    /* Puedes ajustar esto según sea necesario */
+}
+
+.team-item img {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.team-content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+}
+
+.team-name .team-role {
+    font-size: .8rem;
+    margin-bottom: 2px;
+}
+
+.team-name,
+.team-role {
+    color: #fff;
+}
+
+.team-role {
+    font-size: .75rem;
+    opacity: .6;
+}
+
+.team-content-social {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+
+}
+
+.team-content-social li {
+    margin-bottom: 5px;
+}
+
+.list-team-social {
+    list-style: none;
+}
+
+.btn-outline-primary {
+    border: 1px solid var(--color-morado);
+    color: var(--color-morado);
+    box-shadow: 2px 8px 24px rgb(0, 0, 0);
+}
+
+.btn-outline-primary:hover {
+    border: 1px solid var(--color-morado);
+    color: #fff;
+    background-color: var(--color-morado);
+}
+
+.btn-outline-primary:active {
+    border: 1px solid var(--color-morado);
+    color: #fff;
+    background-color: var(--color-morado) !important;
+}
+
+.btn-outline-primary:focus {
+    border: 1px solid var(--color-morado);
+    color: #fff;
+    background-color: var(--color-morado);
+}
+
+.img-aboutus {
+    width: 80w;
+    height: 45vh;
+}

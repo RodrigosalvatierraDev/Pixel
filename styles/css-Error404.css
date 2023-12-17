@@ -1,0 +1,201 @@
+.error {
+  padding: 40px 15px;
+  text-align: center;
+}
+.error-botones {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.error-botones .btn {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.img-error {
+  height: 100vh;
+  width: 100vw;
+}
+
+.titulo-error {
+  font-size: 80px;
+  margin-bottom: 25px;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.subtitulo-error {
+  font-size: 35px;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.error-descripcion {
+  font-size: 25px;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.boton1 {
+  background-color: var(--color-morado);
+  color: white;
+  box-shadow: 0px 4px 16px 0px #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.boton2 {
+  background-color: white;
+  box-shadow: 0px 4px 16px 0px #ffffff;
+}
+
+.boton1:hover {
+  background-color: white;
+  color: black;
+}
+
+.boton2:hover {
+  background-color: var(--color-morado);
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+  .img-error {
+    height: 370px;
+  }
+}
+/* Paleta de Colores */
+/* #9755F6 Morado #3DB2E7 azul-celeste #95162F borgoña-rojo color-negro: #000000; color-blanco: #FFFFFF; */
+/* Variables */
+:root {
+  --color-morado: #9755F6;
+  --color-azul-celeste: #3DB2E7;
+  --color-borgoña-rojo: #95162F;
+  --color-negro: #000000;
+  --color-blanco: #FFF;
+  --font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: #eeeaea;
+  border: 2px solid var(--color-morado);
+  margin: 4rem;
+  border-radius: 4rem;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  z-index: 1;
+
+}
+
+.registro .nav-link {
+  border: 1px solid var(--color-morado);
+  border-radius: 18px;
+  background-color: var(--color-morado);
+
+}
+
+.nav-item:hover {
+  background-color: var(--color-morado);
+  border-radius: 1rem;
+}
+
+/* Adaptable */
+@media (max-width: 767px) {
+  .navbar {
+      width: 100%;
+      padding: 1rem;
+      border: none;
+      margin: 0;
+      border-radius: 0;
+      justify-content: space-between;
+  }
+}
+
+/* Seccion Hero */
+
+.hero-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+/* Overlay */
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* BotonMain */
+.boton-main-1 {
+  border-radius: 10px;
+  color: var(--color-blanco);
+  text-decoration: none;
+  border: 1px solid var(--color-morado);
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  margin: 20px;
+  padding: 6px;
+}
+
+.boton-main-2 {
+  border-radius: 10px;
+  color: var(--color-blanco);
+  text-decoration: none;
+  border: 1px solid var(--color-morado);
+  background-color: var(--color-morado);
+  font-size: 15px;
+  text-align: center;
+  margin: 20px;
+  padding: 6px;
+
+}
+
+.boton-main-1:hover {
+  color: var(--color-blanco);
+  background-color: var(--color-morado)
+}
+
+.boton-main-2:hover {
+  color: var(--color-morado);
+  background-color: var(--color-blanco)
+}
+
+.subtitulo {
+  letter-spacing: 10px;
+  font-family: var(--font-family)
+}
+
+.titulo {
+  font-size: 15px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.sub-sub-titulo {
+  font-size: 15px;
+
+}
